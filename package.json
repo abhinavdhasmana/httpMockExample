@@ -1,0 +1,24 @@
+{
+  "name": "mockexample",
+  "version": "1.0.0",
+  "description": "A sample code to show mocking of http request",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/lab/bin/lab -c"
+  },
+  "author": "Abhinav Dhasmana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "lab": "^14.3.1",
+    "nock": "^9.2.3",
+    "request": "^2.85.0",
+    "sinon": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  }
+}
